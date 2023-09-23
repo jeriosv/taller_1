@@ -2,11 +2,9 @@
 
 link notebook con los ejercicios impares:https://colab.research.google.com/drive/1ExkBTBBtDGU3todwiFg5vGtvhk_F37CV?usp=sharing
 
-![quiz](https://github.com/jeriosv/taller_1/assets/141858005/4c1ec118-c977-4a9d-abbf-0f3a94a009d0)
-
 1. Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 
-
+![quiz](https://github.com/jeriosv/taller_1/assets/141858005/4c1ec118-c977-4a9d-abbf-0f3a94a009d0)
 
 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 
