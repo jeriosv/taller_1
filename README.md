@@ -1,5 +1,8 @@
 # Taller 1
 
+link notebook con los ejercicios impares:https://colab.research.google.com/drive/1ExkBTBBtDGU3todwiFg5vGtvhk_F37CV?usp=sharing
+
+
 1. Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 
 
