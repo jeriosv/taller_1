@@ -153,6 +153,9 @@ print( " El promedio de los cinco números es imer número es: ", (promedio))
 
 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
+![Captura de Pantalla 2023-09-23 a la(s) 12 27 52 a m](https://github.com/jeriosv/taller_1/assets/142249529/cb6afeef-07bd-4170-973a-ac00ea0df77f)
+
+
 ```python
 
    ```
