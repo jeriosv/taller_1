@@ -93,6 +93,9 @@ elif (numero1+numero2) < numero3:
 
 6. Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
 
+![ascii-table-in-c2](https://github.com/jeriosv/taller_1/assets/142249529/424daf55-ddc5-42ad-9484-62a96e376281)
+
+
 ```python
 
 a : str
@@ -114,13 +117,13 @@ else:
 
 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
-    -El promedio
-    -La mediana
-    -El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
-    -Ordenar los números de forma ascendente
-    -Ordenar los números de forma descendente
-    -La potencia del mayor número elevado al menor número
-    -La raíz cúbica del menor número
+    -El promedio.
+    -La mediana.
+    -El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos).
+    -Ordenar los números de forma ascendente.
+    -Ordenar los números de forma descendente.
+    -La potencia del mayor número elevado al menor número.
+    -La raíz cúbica del menor número.
 
 ```python
 
