@@ -183,7 +183,7 @@ distancia : float
 
 distancia = float(input("Ingrese el valor de una distancia [en metros] : "))
 
-velocidadLuz : float = 299792458      # Velocidad de la Luz [m/s]
+velocidadLuz : float = 299792.458      # Velocidad de la Luz [m/s]
 velocidadSonido : float = 343.2       # Velocidad del sonido (en el aire) [m/s]
 velocidadComercial : float = 141.263889  # Velocidad del vehículo comercial más veloz [m/s].
                                          # SSC Tuatara, velocidad máxima reconocida oficialmente de 508,55 km/h
