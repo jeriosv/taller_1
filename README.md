@@ -139,14 +139,15 @@ n3 = float(input("Ingrese el tercer número real : "))
 n4 = float(input("Ingrese el cuarto número real : "))
 n5 = float(input("Ingrese el quinto número real : "))
 
-promedio : float = (n1+n2+n3+n4+n5) /5
+promedio : float = (n1+n2+n3+n4+n5) / 5
 mediana : float
-promedioMultiplicativo : float
+promedioMultiplicativo : float = (n1*n2*n3*n4*n5) ** (1/5)
 
 
-print( " El promedio de los cinco números es imer número es: ", (promedio))
+print( " El promedio aritmético de los cinco números es: ", (promedio))
+print( " El promedio multiplicativo de los cinco números es: ", (promedioMultiplicativo))
 
-# falta termiinarlo
+# falta terminarlo
 
    ```
 
