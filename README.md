@@ -7,7 +7,14 @@ link notebook con los ejercicios impares:https://colab.research.google.com/drive
 ![quiz](https://github.com/jeriosv/taller_1/assets/141858005/4c1ec118-c977-4a9d-abbf-0f3a94a009d0)
 
 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
-
+   El procedimiento para la realización del código es:
+   - Definir los 3 números como números reales.
+   - Pedir y leer al usuario los 3 números reales.
+   - Determinar con el condicional, si el primer número es el mayor.
+   - Determinar con el condicional, si el segundo número es el mayor.
+   - Determinar con el condicional, si el tercer número es el mayor.
+   - Determinar con el condicional, los casos especiales en caso de igualdades.
+     
 
 ```python
 
@@ -19,12 +26,13 @@ numero1 = float(input("Ingrese el primer número real : "))
 numero2 = float(input("Ingrese el segundo número real: "))
 numero3 = float(input("Ingrese el tercer número real : "))
 
-if (numero1>numero2) and (numero1>numero3):
+if (numero1>=numero2) and (numero1>numero3):
    print( " El primer número es el mayor de todos: ", (numero1))
 elif (numero2>numero1) and (numero2>numero3):
    print( " El segundo número es el mayor de todos: ", (numero2))
 elif (numero3>numero1) and (numero3>numero2):
    print( " El tercer número es el mayor de todos: ", (numero3))
+
 
 ```
 
