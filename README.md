@@ -25,9 +25,9 @@ Enlace de notebook con los ejercicios impares: https://colab.research.google.com
   graph TD;
     A(Inicio) --> B(Ingresar los 3 números);
     B --> C{¿cuál es el número mayor?};
-    C -->|n1>n2 y n1>n3| D[Número 1];
-    C -->|n2>n1 y n2>n3| E[Número 2];
-    C -->|n3>n1 y n3>n2| F[Número 3];
+    C -->|n1n2 y n1 n3| D[Número 1];
+    C -->|n2n1 y n2 n3| E[Número 2];
+    C -->|n3n1 y n3 n2| F[Número 3];
     D --> G[Imprimir número mayor] --> H(Fin);
     E --> G;
     F --> G;
