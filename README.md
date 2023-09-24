@@ -222,7 +222,7 @@ print( " El promedio multiplicativo de los cinco números es: ", (promedioMultip
 ```python
    frecuencia : float 
    
-   frecuencia = float(input("Ingrese la frecuencia de una onda en hertz [Hz]: "))
+   frecuencia = float(input("Ingrese la frecuencia de una onda en hertz [Hz]: \n Tip: Para ingresar en notación científica, escribir e (base 10): ejemplo 15.6e14 :  "))
    
    if (30.0e18<frecuencia):
       print("La onda se ubica en Rayos Gamma.")
