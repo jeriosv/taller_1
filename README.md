@@ -65,6 +65,7 @@ elif (numero3>=numero1) and (numero3>=numero2):
    - En caso contrario será impar. Imprimir que es impar
 
 ```mermaid
+graph TD;
    A[inicio] --> B(definir n como un numero entero)
    B -->C(realizar numero % 2)
    C -->D{el residuo es igual a cero}
@@ -72,6 +73,8 @@ elif (numero3>=numero1) and (numero3>=numero2):
    D -->F(no)
    E -->G(en numero es par)
    F -->H(el numer es impar)
+   H -->I(fin)
+   G -->I(fin)
 ```
 
 
