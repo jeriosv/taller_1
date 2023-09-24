@@ -180,7 +180,6 @@ else:
    - Calcular el promedio multiplicativo de los 5 números. E imprimir.
     
    
-
 ```python
 
 n1 : float 
@@ -209,12 +208,55 @@ print( " El promedio multiplicativo de los cinco números es: ", (promedioMultip
 
 
 ## 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
-
+   
+   Con ayuda de Wikipedia vemos los valores de frecuencia del espectro electromágnético.
 ![Captura de Pantalla 2023-09-23 a la(s) 12 27 52 a m](https://github.com/jeriosv/taller_1/assets/142249529/cb6afeef-07bd-4170-973a-ac00ea0df77f)
+
+   El procedimiento para la realización del código es:
+   - Definir la frecuencia como número real.
+   - Pedir y leer del usuario la frecuencia en Hertz.
+   - Determinar con condicionales, a qué grupo pertenece del espectro electromagnético la frecuencia.
+   - Imprimir a qué grupo del espectro electromagnético pertenece la frecuencia.
 
 
 ```python
-hola
+   frecuencia : float 
+   
+   frecuencia = float(input("Ingrese la frecuencia de una onda en hertz [Hz]: "))
+   
+   if (30.0e18<frecuencia):
+      print("La onda se ubica en Rayos Gamma.")
+   elif (30.0e15<=frecuencia) and (frecuencia<30.0e18):
+      print("La onda se ubica en Rayos X.")
+   elif (1.5e15<=frecuencia) and (frecuencia<30.0e15):
+      print("La onda se ubica en Ultravioleta extremo.")
+   elif (7.89e14<=frecuencia) and (frecuencia<1.5e15):
+      print("La onda se ubica en Ultravioleta cercano.")
+   elif (384e12<=frecuencia) and (frecuencia<7.89e14):
+      print("La onda se ubica en Espectro Visible.")
+   elif (120e12<=frecuencia) and (frecuencia<384e12):
+      print("La onda se ubica en Infrarrojo cercano.")
+   elif (6.00e12<=frecuencia) and (frecuencia<120e12):
+      print("La onda se ubica en Infrarrojo medio.")
+   elif (300e9<=frecuencia) and (frecuencia<6.00e12):
+      print("La onda se ubica en Infrarrojo lejano / submilimétrico.")
+   elif (3e8<=frecuencia) and (frecuencia<300e9):
+      print("La onda se ubica en Microondas.")
+   elif (300e6<=frecuencia) and (frecuencia<3e8):
+      print("La onda se ubica en Ultra Alta Frecuencia - Radio.")
+   elif (30e6<=frecuencia) and (frecuencia<300e6):
+      print("La onda se ubica en Muy Alta Frecuencia - Radio.")
+   elif (1.7e6<=frecuencia) and (frecuencia<30e6):
+      print("La onda se ubica en Onda Corta - Radio.")
+   elif (650e3<=frecuencia) and (frecuencia<1.7e6):
+      print("La onda se ubica en Onda Media - Radio.")
+   elif (30e3<=frecuencia) and (frecuencia<650e3):
+      print("La onda se ubica en Onda Larga - Radio.")
+   elif (frecuencia<30e3):
+      print("La onda se ubica en Muy Baja Frecuencia - Radio.")
+   elif (frecuencia<0):
+      print("Error: El valor de frecuencia ingresada es un número negativo.")
+   
 ```
 
 
@@ -227,18 +269,18 @@ hola
 
 ## 10. Escriba un programa que dada una distancia calcule:
 
-    - El tiempo que le tomaría a la luz recorrer la distancia.
-    - El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
-    - El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
-    - El tiempo que le tomaría a Bolt recorrer la distancia.
+   - El tiempo que le tomaría a la luz recorrer la distancia.
+   - El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+   - El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+   - El tiempo que le tomaría a Bolt recorrer la distancia.
 
-    Para realizar el código fue necesario:
-    - Definir la variable distancia como un número real.
-    - Pedir y leer del usuario el valor de una distancia en metros.
-    - Definir como constantes las velocidades consultadas.
-    - Imprimir y calcular el valor de cada uno de los tiempos requeridos para diferentes velocidades.
-    - Recordar que: velocidad = distancia / tiempo
-    - Y despejando: tiempo = distancia / velocidad 
+   Para realizar el código fue necesario:
+   - Definir la variable distancia como un número real.
+   - Pedir y leer del usuario el valor de una distancia en metros.
+   - Definir como constantes las velocidades consultadas.
+   - Imprimir y calcular el valor de cada uno de los tiempos requeridos para diferentes velocidades.
+      - Recordar que: velocidad = distancia / tiempo
+      - Y despejando: tiempo = distancia / velocidad 
 
 ```python
 
