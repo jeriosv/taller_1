@@ -21,6 +21,14 @@ Enlace de notebook con los ejercicios impares: https://colab.research.google.com
    - Determinar con el condicional, si el segundo número es el mayor. E Imprimir.
    - Determinar con el condicional, si el tercer número es el mayor. E Imprimir.
      
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 
 ```python
 
@@ -51,6 +59,15 @@ elif (numero3>=numero1) and (numero3>=numero2):
    - Pedir y leer del usuario el número entero.
    - Determinar con el condicional, hallando si el residuo es igual a cero es par. E imprimir que es par.
    - En caso contrario será impar. Imprimir que es impar
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 
 ```python
 
@@ -179,6 +196,14 @@ else:
    - Calcular el promedio aritmético de los 5 números. E imprimir.
    - Calcular el promedio multiplicativo de los 5 números. E imprimir.
     
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
    
 ```python
 
