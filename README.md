@@ -1,4 +1,5 @@
-# Taller 1
+# Taller 1:
+
 Integrantes del equipo:
 - Andrés Camilo Bustamante Guzmán
 - Jhonatan Esteban Forero Velásquez
