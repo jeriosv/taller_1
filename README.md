@@ -66,13 +66,13 @@ elif (numero3>=numero1) and (numero3>=numero2):
 
 ```mermaid
 graph TD;
-   A[inicio] --> B(definir n como un numero entero)
-   B -->C(realizar numero % 2)
-   C -->D{el residuo es igual a cero}
-   D -->E(si)
-   D -->F(no)
-   E -->G(en numero es par)
-   F -->H(el numer es impar)
+   A[inicio] --> B[Definir n como un número entero]
+   B -->C[realizar numero % 2]
+   C -->D{el residuo es igual a cero?}
+   D -->E(Sí)
+   D -->F(No)
+   E -->G(El número es par)
+   F -->H(El número es impar)
    H -->I(fin)
    G -->I(fin)
 
