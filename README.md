@@ -65,13 +65,15 @@ elif (numero3>=numero1) and (numero3>=numero2):
    - En caso contrario será impar. Imprimir que es impar
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+   A[inicio] --> B(definir n como un numero entero)
+   B -->C(realizar numero % 2)
+   C -->D{el residuo es igual a cero}
+   D -->E(si)
+   D -->F(no)
+   E -->G(en numero es par)
+   F -->H(el numer es impar)
 ```
-![mermaid-diagram-2023-09-24-230806](https://github.com/jeriosv/taller_1/assets/141858005/fcb942b3-948c-4d32-95d4-1b37f734cecb)
+
 
 
 ```python
