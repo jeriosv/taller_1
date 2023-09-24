@@ -24,7 +24,7 @@ Enlace de notebook con los ejercicios impares: https://colab.research.google.com
 ```mermaid
   graph TD;
     A(Inicio) --> B(Ingresar los 3 números)
-    B --> C{¿cuál es el número mayor?}
+    B --> C{cuál es el número mayor?}
     C -->|Primero| D[Número 1] 
     C -->|Segundo| E[Número 2] 
     C -->|Tercero| F[Número 3] 
