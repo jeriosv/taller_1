@@ -1,5 +1,10 @@
 # Taller 1
-
+Integrantes del equipo:
+- Andrés Camilo Bustamante Guzmán
+- Jhonatan Esteban Forero Velásquez
+- Jaime Eduardo Ríos Villegas
+ 
+ 
 Enlace de notebook con los ejercicios impares: https://colab.research.google.com/drive/1ExkBTBBtDGU3todwiFg5vGtvhk_F37CV?usp=sharing
 
 ## 1. Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
