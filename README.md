@@ -71,6 +71,7 @@ elif (numero3>=numero1) and (numero3>=numero2):
       B-->D;
       C-->D;
 ```
+![mermaid-diagram-2023-09-24-230806](https://github.com/jeriosv/taller_1/assets/141858005/fcb942b3-948c-4d32-95d4-1b37f734cecb)
 
 
 ```python
