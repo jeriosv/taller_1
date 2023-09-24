@@ -22,15 +22,15 @@ Enlace de notebook con los ejercicios impares: https://colab.research.google.com
    - Determinar con el condicional, si el tercer número es el mayor. E Imprimir.
      
 ```mermaid
-  flowchart TD;
+  graph TD;
     A(Inicio) --> B(Ingresar los 3 números);
     B --> C{Determinar número mayor es...};
-    C -->|Primero| D[Número 1] ;
-    C -->|Segundo| E[Número 2] ;
-    C -->|Tercero| F[Número 3] ;
+    C -->|Primero| D[Número 1];
+    C -->|Segundo| E[Número 2];
+    C -->|Tercero| F[Número 3];
     D --> G[Imprimir número mayor] --> H(Fin);
-    E --> G ;
-    F --> G ;
+    E --> G;
+    F --> G;
 ```
 
 
