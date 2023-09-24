@@ -205,7 +205,7 @@ print( " El promedio multiplicativo de los cinco números es: ", (promedioMultip
 
 # falta terminarlo
 
-   ```
+```
 
 
 ## 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
@@ -214,15 +214,15 @@ print( " El promedio multiplicativo de los cinco números es: ", (promedioMultip
 
 
 ```python
-
-   ```
+hola
+```
 
 
 ## 9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 
 ```python
-
-   ```
+hola
+```
 
 
 ## 10. Escriba un programa que dada una distancia calcule:
