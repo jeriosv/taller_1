@@ -1,6 +1,6 @@
 # Taller 1
 
-link notebook con los ejercicios impares:https://colab.research.google.com/drive/1ExkBTBBtDGU3todwiFg5vGtvhk_F37CV?usp=sharing
+Enlace de notebook con los ejercicios impares: https://colab.research.google.com/drive/1ExkBTBBtDGU3todwiFg5vGtvhk_F37CV?usp=sharing
 
 1. Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 
@@ -38,13 +38,17 @@ elif (numero3>=numero1) and (numero3>=numero2):
 
 
 3. Realice un programa que lea un número enteros y determine si es par o impar.
-
+   El procedimiento para la realización del código es:
+   - Definir el número como número entero.
+   - Pedir y leer del usuario el número entero.
+   - Determinar con el condicional, hallando si el residuo es igual a cero es par. E imprimir que es par.
+   - En caso contrario será impar. Imprimir que es impar
 
 ```python
 
-numero : float 
+numero : int 
 
-numero = float(input("Ingrese un número entero : "))
+numero = int(input("Ingrese un número entero : "))
 
 if (numero % 2) == 0:
    print( "El número es par.")
@@ -56,6 +60,12 @@ else:
 
 
 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
+   El procedimiento que se siguió fue:
+   - Definir los 2 números como números reales.
+   - Pedir y leer del usuario los 2 números reales.
+   - Determinar con el condicional, si el primer es múltiplo del segundo, viendo si su residuo es cero.
+   - En caso contrario, no será el primer número múltiplo del segundo.
+   - Imprimir si es o no múltiplo el primer número del segundo.
 
 ```python
 
@@ -75,6 +85,12 @@ else:
 
 
 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+   Se realiza el siguiente proceso para obtener el código:
+   - Definir los 3 números como números reales.
+   - Pedir y leer del usuario los 3 números reales.
+   - Determinar con el condicional, si la suma de los dos primeros es igual al tercero. E imprimir.
+   - Determinar con el condicional, si la suma de los dos primeros es mayor al tercero. E imprimir.
+   - Determinar con el condicional, si la suma de los dos primeros es menor al tercero. E imprimir.
 
 ```python
 
@@ -101,9 +117,20 @@ elif (numero1+numero2) < numero3:
 
 
 6. Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
-
-![ascii-table-in-c2](https://github.com/jeriosv/taller_1/assets/142249529/424daf55-ddc5-42ad-9484-62a96e376281)
-
+   Para la elaboración del ejercicio fue necesario ver los valores ASCII para las vocales y consonantes.
+   ![ascii-table-in-c2](https://github.com/jeriosv/taller_1/assets/142249529/424daf55-ddc5-42ad-9484-62a96e376281)
+   El procedimiento que se siguió fue el siguiente:
+   - Definir la letra que ingrese el usuario como string, y su correspondiente identificador ASCII como número entero.
+   - Pedir y leer del usuario la letra.
+   - Convertir el ASCII correspondiente de la letra y guardarlo en b.
+   - Realizamos dos condicionales anidados:
+      - En el primero determinamos si la letra ingresada es una letra, ya sea minúscula o mayúscula.
+         - Código ASCII de Minúsculas entre 65 y 90.
+         - Código ASCII de mayúsculas entre 97 y 122.
+      - En el condicional interno anidado, verificamos si es una vocal, códigos ASCII
+         - Código ASCII de vocales Minúsculas entre 65, 69, 73, 79 y 85.
+         - Código ASCII de vocales mayúsculas entre 97, 101, 105, 111 y 117.
+   -Imprimir según sea el caso, si es vocal, si es consonante, o ninguna de las anteriores.  
 
 ```python
 
