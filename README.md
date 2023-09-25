@@ -223,7 +223,7 @@ else:
     C --> H[Ordenar descendente]
     C --> I[Potencia del mayor elevado menor]
     C --> J[RaízCúbica del menor]
-    D --> K[Imprimir número mayor] --> L(Fin)
+    D --> K[Imprimir resultados] --> L(Fin)
     E --> K 
     F --> K
     G --> K
