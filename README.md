@@ -214,10 +214,22 @@ else:
     
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+    A(Inicio) --> B[Ingresar los 5 números]
+    B --> C[Calcular]
+    C --> D[Promedio] 
+    C --> E[Mediana] 
+    C --> F[Promedio multiplicativo] 
+    C --> G[Ordenar ascendente]
+    C --> H[Ordenar descendente]
+    C --> I[Potencia del mayor elevado menor]
+    C --> J[RaízCúbica del menor]
+    D --> K[Imprimir número mayor] --> L(Fin)
+    E --> K 
+    F --> K
+    G --> K
+    H --> K
+    I --> K
+    J --> K
 ```
 
    
